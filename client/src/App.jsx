@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import io from "socket.io-client";
 
-const socket = io("http://localhost:3000"); // Подключение к WebSocket серверу
+const socket = io("https://653e-45-85-105-82.ngrok-free.app"); // Подключение к WebSocket серверу
 
 function App() {
   const localVideoRef = useRef(null);
