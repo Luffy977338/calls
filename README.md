@@ -20,6 +20,8 @@ npm i
 npm run start:dev
 ```
 
+### ---------- OR
+
 ## Run nest js server
 
 ```bash

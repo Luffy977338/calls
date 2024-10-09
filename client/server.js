@@ -18,7 +18,7 @@ const ACTIONS = {
   ICE_CANDIDATE: "ice-candidate",
   SESSION_DESCRIPTION: "session-description",
 };
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 8000;
 
 function getClientRooms() {
   const { rooms } = io.sockets.adapter;
