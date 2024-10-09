@@ -25,7 +25,6 @@
     "@nestjs/platform-express": "^10.0.0",
     "@nestjs/platform-socket.io": "^10.4.4",
     "@nestjs/websockets": "^10.4.4",
-    "peer": "^1.0.2",
     "reflect-metadata": "^0.2.0",
     "rxjs": "^7.8.1",
     "uuid": "^10.0.0"
