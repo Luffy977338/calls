@@ -23,7 +23,7 @@ const ACTIONS = {
 
 @WebSocketGateway({
   cors: {
-    origin: '*', // Ограничьте в продакшене
+    origin: '*',
   },
 })
 export class VideoGateway
