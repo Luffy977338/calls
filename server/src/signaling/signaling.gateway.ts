@@ -33,7 +33,7 @@ export class VideoGateway
   server: Server;
 
   afterInit(server: Server) {
-    console.log('WebSocket сервер запущен');
+    console.log('WebSocket started');
   }
 
   getClientRooms() {
@@ -80,7 +80,6 @@ export class VideoGateway
   }
 
   handleConnection(client: Socket) {
-    console.log(`Клиент подключен: ${client.id}`);
     this.shareRoomsInfo();
 
     client.on('disconnecting', () => this.handleDisconnecting(client));
