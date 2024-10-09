@@ -83,7 +83,6 @@ export class VideoGateway
     console.log(`Клиент подключен: ${client.id}`);
     this.shareRoomsInfo();
 
-    // Добавляем обработчик события disconnecting
     client.on('disconnecting', () => this.handleDisconnecting(client));
   }
 
